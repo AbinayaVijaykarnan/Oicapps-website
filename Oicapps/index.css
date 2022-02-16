@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+               /*nav*/
+         
+.abinaya-logo{
+    font-size: 2rem;
+}
+.navbar-nav a{
+    opacity:0.5;
+}   
+.navbar-nav a:hover{
+    opacity:1;
+    border:2px solid white;
+    font-weight: 800;
+   }
+.background-gradient{ 
+background-image: linear-gradient(to bottom right, rgb(19, 1, 19), rgb(199, 10, 199));
+}
+.blue-gradient{
+    background-image: linear-gradient(to right, rgb(20, 23, 228), rgb(29, 38, 119));
+}
+                /*coverpage*/
+#coverpage .carousel-inner{
+width:100%;
+max-height:500px;
+}
+#coverpage video{
+    position: relative;
+}
+#coverpage .carousel-caption{
+    position:absolute;
+    top:15%;
+    text-align: left;
+}
+#coverpage .carousel-caption h2{
+    font-size:2.8rem;
+}
+
+.social-media li{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin:15px 0;
+}
+.social-media li a{
+    background-color:rgb(146,13,146);
+    color: rgba(255, 255, 255, 0.918);
+    padding: 2px;
+}
+.social-media li a:hover{
+   background-color:rgba(255, 255, 255, 0.918);
+   color: rgb(146,13,146) ;
+}
+
+
+          /*achievements*/
+#achievements #achieve-moveup{
+   /* position:absolute;
+    top:-100px;
+    right:80px;*/
+    margin-top:-160px;
+    z-index: 1;
+    max-height:100vh;
+}
+#learnMoreUs{
+    position: relative;
+}
+#achievements #achieve-moveleft{
+   /* margin-left:-22%;
+    margin-top:25%;
+   */
+   position:absolute;
+   top:65%;
+   left:20%;
+}
+/* Team*/
+#team{
+    position: relative;
+}
+ #team-moveup video{
+  position: absolute;
+  width:30%;
+  left:50%;
+  top:-10%;
+
+}
+
+ /*services*/
+ #services .progress {
+    position:relative;
+}
+#services .progress p{
+    position:absolute;
+    left:5%;
+    top:25%;
+}
+#services .progress span {
+    position:absolute;
+    right:20%;
+    top:25%;
+}
+#services{
+    position: relative;
+}
+#services-moveup{
+    margin-top:-130px;
+}
+
+#six-boxes{
+    display: grid;
+    grid-template-columns:33.33% 33.33% 33.33%;
+    grid-gap:20px;
+}
+#six-boxes div{
+    border: 2px solid rgba(77, 76, 76, 0.301);
+    padding: 25px;  
+}
+#six-boxes div a, #team a, #contact #subscribe{
+    font-size:0.8rem;
+    padding:10px 15px;
+    font-weight: bolder;
+}
+#six-boxes div p{
+    font-size:0.8rem;
+    padding-right:20px;
+}
+#six-boxes div:nth-child(2n+1) i{
+    color: rgb(146,13,146);
+    font-size:2rem;
+}
+#six-boxes div:nth-child(2n+1) a:hover{
+    background-image: linear-gradient(to right, rgb(20, 23, 228), rgb(29, 38, 119));
+}
+#six-boxes div:nth-child(2n+1) p{
+    color:rgb(128, 128, 128);
+}
+#six-boxes div:nth-child(2n+2){
+    background-image: linear-gradient(to bottom right, rgb(19, 1, 19), rgb(199, 10, 199));
+    color:rgba(255, 255, 255, 0.938);
+}
+#six-boxes div:nth-child(2n+2) i{
+    color:rgba(255, 255, 255, 0.938);
+    font-size:2rem;
+}
+#services-double-image{
+position: relative;
+}
+#services-double-image #services-image-moveup img{
+    width:15%;
+    position: absolute;
+    left:370px;
+    top:500px;
+    border:10px solid rgba(255, 255, 255, 0.897);
+}
+#whyChoiceUs div:hover{
+    background-image: linear-gradient(to bottom right, rgb(19, 1, 19), rgb(199, 10, 199));
+    color: rgba(255, 255, 255);
+}
+#whyChoiceUs div i{
+    color: rgb(121, 2, 121);
+}
+#whyChoiceUs div p:hover{
+    color: rgba(255, 255, 255);
+}
+#portfolio a:hover,#portfolio a:focus,.learn-button:hover{
+    background-image: linear-gradient(to right, rgb(20, 23, 228), rgb(29, 38, 119));
+}
+
+.grey-para{
+    color:rgba(128, 128, 128, 0.932);
+    font-size:0.8rem;
+}
+.white-para{
+    color:rgba(255, 255, 255, 0.932);
+    font-size:0.8rem;
+}
+.weight-800{
+    font-weight: 800;
+    font-size:0.9rem;
+}
+.weight-900{
+    font-weight: 900;
+    font-size:0.9rem;
+}
+.small-heading{
+    font-weight:700;
+    color:rgba(128, 128, 128, 0.932);
+    font-size:0.7rem;
+}
+.heading-weight-900{
+    font-weight:900 ;
+}
+.purple-dash{
+    color:rgb(146,13,146);
+    font-weight:900;
+}
+.purple-light-dash{
+    color:rgba(247, 221, 247, 0.637);
+    font-weight:700;
+}
+#border-info{
+    border-bottom:1px solid rgba(247, 221, 247, 0.637) !important;
+}
+.text-purple{
+    color:rgb(146,13,146);
+}
+.text-purple-800{
+    color:rgb(146,13,146);
+    font-weight: 800;
+}
+.bg-purple{
+    background-color: rgb(146,13,146);
+}
+.btn-purple{
+    background-color: rgb(146,13,146);
+    color:rgba(255, 255, 255, 0.938);
+}
+.small-rem{
+ font-size:0.8rem;
+}
+#whyChoiceUs{
+    margin-left:-150px;
+    width:50%;
+}
+#three-boxes-moveup{
+    position: relative;
+}
+#three-boxes-moveup .div1,#three-boxes-moveup .div2,#three-boxes-moveup .div3{
+    position: absolute;
+    left:50px;
+    top:-60px;
+    z-index: 1;
+}
+#three-boxes-moveup .div2{
+    left:470px;
+}
+#three-boxes-moveup .div3{
+    left:880px;
+}
+
+#reviews .carousel-inner{
+    max-height:350px;
+ }
+ #reviews .slide .carousel-indicators li{
+     background-color: rgba(128, 0, 128, 0.89);
+     width: 10px;
+     height:10px;
+     border-radius:100%;
+     position:relative;
+     top:150px;
+ }
+
+
+                /*news*/
+#news{
+    position: relative;
+}
+#news #reviews-moveup{
+    margin-top: -100px;
+}
+.team-image{
+    width:15%;
+    border-radius:100%;
+}
+.ceo{
+    display: flex;
+    align-items: center;
+    margin-left:50px;
+}
+.bg-darkblue{
+    background-color: rgb(9, 9, 117);
+}
+.card{
+    opacity:0.5;
+}
+.card:hover{
+    opacity:1;
+    background-image: linear-gradient(to right, rgb(20, 23, 228), rgb(29, 38, 119));
+    border:3px solid rgba(0, 0, 255, 0.336);
+}
+.card-round-img{
+    width:50px;
+    height:50px;
+    border-radius:900px;
+    margin-top:-70px;
+}  
+.card-body{
+    position: relative;
+} 
+.card-body a:hover{
+   border:2px solid white;
+   border-radius:10px;
+   padding:5px;
+} 
+
+.white-para-verysmall{
+    color:rgba(255, 255, 255, 0.932);
+    font-size:0.6rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.911);
+}
+input{
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.842);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.603);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.493);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:rgba(255, 255, 255, 0.685);
+  }
+
+
+/*footer*/
+#contact input{
+    width: 100%;
+}
+#contact a:hover{
+    background-image: linear-gradient(to right, rgb(20, 23, 228), rgb(82, 97, 236));
+}
+#footer-social-media ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin:5px 10px 5px 0px;
+}
+#footer-social-media li a{
+    color:rgb(146,13,146);
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 2px;
+}
+#footer-social-media li a:hover{
+   color:rgba(255, 255, 255, 0.918);
+   background-color:rgb(76, 76, 223);
+}
+.footer-links li{
+    list-style-type: none;
+}
+.footer-links a{
+    text-decoration: none;
+    margin-left: -30px;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 0.7rem;
+}
+
+#footer-line{
+    border-top:1px solid rgba(207, 82, 207, 0.733);
+}
+
+
+
+/*Responsive*/
+@media only screen and (max-width:1800px){
+    #services-double-image #parent-image img{
+        width:100%;
+    }
+    #services-double-image #services-image-moveup img{
+        width:20%;
+        position: absolute;
+        left:320px;
+        top:450px;
+    }
+    #whyChoiceUs{
+        margin:0 auto;
+        width:50%;
+    }
+}
+@media only screen and (max-width:1400px){
+    .abinaya-logo{
+        display: flex;
+        justify-content: center;
+    }
+    #reviews .slide .carousel-indicators li{
+        top:180px;
+    }
+    
+}
+
+@media only screen and (max-width:1200px){
+    .abinaya-logo{
+        display: flex;
+        justify-content: end;
+    }
+    #services-double-image #parent-image img{
+        width:120%;
+    }
+    #services-double-image #services-image-moveup img{
+        left:280px;
+        top:500px;
+    }
+    #three-boxes-moveup .div2{
+        position: relative;
+        left:270px;
+       }
+      
+       #three-boxes-moveup .div3{
+       position: relative;
+       left:80px;
+       }
+       #reviews .carousel-inner{
+        position: relative;
+        top:-200px;
+     }
+     #news #reviews-moveup{
+        margin-top:-300px;
+    }
+    #reviews .slide .carousel-indicators li{
+        top:10px;
+    }
+   
+}
+
+@media only screen and (max-width:992px){
+  
+    #learnMoreUs .learn-us{
+        position: relative;
+        left:120px;
+     }
+     #main-container{
+        overflow:hidden;
+    }
+     #achievements #achieve-moveleft{
+        top:70%;
+        width:35%;
+     }
+     #services-double-image #parent-image img{
+        width:170%;
+    }
+    #services-double-image #services-image-moveup img{
+        width:40%;
+        position: absolute;
+        left:420px;
+        top:450px;
+    }
+    #whyChoiceUs{
+        margin: 15% auto 0 auto;
+        width:70%;
+    }
+    #three-boxes-moveup .div2{
+     position: relative;
+     left:225px;
+    }
+   
+    #three-boxes-moveup .div3{
+    position: relative;
+    left:70px;
+    }
+    #reviews .carousel-inner{
+        position: relative;
+        top:-200px;
+     }
+     #news #reviews-moveup{
+        margin-top: -300px;
+    }
+    #reviews .slide .carousel-indicators li{
+        top:30px;
+    }
+    #news .margin-left-25{
+        margin-left:25%;
+    }
+}
+@media only screen and (max-width:768px){
+    .abinaya-logo{
+        font-size:1.5rem;
+    }
+    #achievements #achieve-moveup{
+         position: relative;
+         left:220px;
+         top:-60px;
+         width:50%;
+     }
+     .achieve1{
+         position: relative;
+         top:200px;
+         margin-bottom: 25px;
+     }
+     #achievements #achieve-moveleft{
+        top:35%;
+        left:55%;
+        width:50%;
+     }
+     #learnMoreUs .learn-us{
+        position: relative;
+        top:80px;
+     }
+     #six-boxes{
+        display: grid;
+        grid-template-columns:50% 50%;
+    }
+   
+    #learnMoreUs .learn-us{
+        position: relative;
+        left:-10px;
+     }
+     #team-moveup video{
+        width:50%;
+        position: absolute;
+        left:40%;
+        top:-40%;
+      }
+     #services-double-image #parent-image img{
+         width:80%;
+     }
+     #services-double-image #services-image-moveup img{
+        width:50%;
+        position: absolute;
+        left:280px;
+    }
+    #whyChoiceUs{
+        margin-left:-30px;
+        margin-top:180px;
+        width:100%;
+    }
+    #three-boxes-moveup .div1,#three-boxes-moveup .div2,#three-boxes-moveup .div3{
+        width:90%;
+        position: relative;
+        left:0px;
+     }
+     #three-boxes-moveup .div1{
+        top:40px;
+     }
+     #three-boxes-moveup .div2{
+         top:80px;
+     }
+     #three-boxes-moveup .div3{
+         top:120px;
+     }
+     .third-box{
+        margin-top: 10px;
+       }
+     #reviews .carousel-inner{
+        position: relative;
+        top:-40px;
+     }
+     #news #reviews-moveup{
+        margin-top:-150px;
+    }
+     #reviews .slide .carousel-indicators li{
+        top:280px;
+    }
+  
+    #footer-social-media ul li{
+        margin:5px 0px;
+    }
+}
+
+@media only screen and (max-width:576px){
+ 
+    #coverpage .carousel-caption{
+        top:5%;
+    }
+    #coverpage .carousel-caption h2{
+        font-size:1.8rem;
+    }
+    .social-media li{
+        margin:10px 0;
+    }
+    #achievements #achieve-moveup{
+        position: relative;
+        left:160px;
+        top:-40px;
+        width:70%;
+    }
+    .achieve1{
+        position: relative;
+        top:240px;
+        margin-bottom:50px;
+    }
+    #achievements #achieve-moveleft{
+        top:30%;
+     }
+     #learnMoreUs .learn-us{
+        position: relative;
+        top:100px;
+     }
+     #team-moveup video{
+        width:40%;
+        position: absolute;
+        left:50%;
+        top:-30%;
+      }
+     #six-boxes{
+        display: grid;
+        grid-template-columns:100%;
+    }
+    #whyChoiceUs{
+        margin-left:-10px;
+        margin-top:50px;
+        width:100%;
+    }
+    #services-double-image #services-image-moveup img{
+        left:250px;
+    }
+    #three-boxes-moveup .div1{
+       width:80%;
+    }
+    #three-boxes-moveup .div2,#three-boxes-moveup .div3{
+        width:80%;
+    }
+    #reviews{
+        margin-top: 1400px;
+    }
+    #reviews .slide .carousel-indicators li{
+        top:320px;
+    }
+    #news .margin-left-25{
+        margin-left:0%;
+    }
+    .card{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #contact input{
+        width: 75%;
+    }
+    #footer-social-media ul li{
+        float: right;
+        margin:5px 10px;
+    }
+    #footer-social-media h3{
+        float:left;
+        font-size:2rem;
+    }
+    #contact a, .footer-links{
+        margin-left:35% ;
+        margin-top:10px;
+    }
+    .footer-links a{
+        font-size:1rem;
+    }
+}
+
+@media only screen and (max-width:420px)and (min-width:200px){  
+    .abinaya-logo{
+        font-size: 1rem;
+    }
+    #coverpage .carousel-caption h2{
+        font-size:1.4rem;
+    }
+    #achievements #achieve-moveup{
+        left:auto;
+        top:-50px;
+        width:90%;
+    }
+    .achieve1{
+        position: relative;
+        top:300px;
+    }
+    #achievement-heading{
+        position: relative;
+        top:60px;
+    }
+    #achievement-heading h2{
+        text-align: left;
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+    #achievement-heading p{
+       margin-bottom: 50px;
+    }
+    #achievements #achieve-moveleft{
+        width:100%;
+        position: relative;
+        left:20px;
+        top:-10px;
+     }
+     #learnMoreUs .learn-us{
+        position: relative;
+        top:50px;
+     }
+     #team-moveup video{
+        width:50%;
+        position: absolute;
+        left:40%;
+        top:-20%;
+      }
+      #services-double-image #parent-image img{
+        width:100%;
+        height:250px !important;
+    }
+    #services-double-image #services-image-moveup img{
+       width:60%;
+       position: relative;
+       left:100px;
+       top:-30px;
+   }
+   #whyChoiceUs{
+    margin-top:5px;
+    }
+    .third-box{
+     margin-top: 10px;
+    }
+    #reviews .slide .carousel-indicators li{
+    top:350px;
+    }
+    .footer-links{
+        margin-left:25% ;
+        margin-top:15px;
+    }
+    .copyright{
+        font-size:0.6rem;
+    }
+}
+
+@media only screen and (max-width:360px)and (min-width:200px){  
+
+    #coverpage .carousel-caption h2{
+        font-size:1rem;
+    }
+    #achievements #achieve-moveup{
+        width:100%;
+    }
+    .whyChoiceUs-heading,.whyChoiceUs-para, #whyChoiceUs .row{
+        width: 150%;
+    }
+    .first-box,.second-box,.third-box{
+        width:80%;
+    }
+    .second-box{
+        margin-top: 10px;
+       }
+    #reviews .slide .carousel-indicators li{
+        top:420px; 
+    }
+    #footer-social-media{
+        margin-left:0% ;
+    }
+    #footer-social-media ul li{
+        margin-left:0% ;
+        float: left;
+    }
+    .footer-links{
+        margin-left:18% ;
+    }
+}
+
+
